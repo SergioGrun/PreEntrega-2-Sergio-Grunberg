@@ -6,6 +6,19 @@
 /*font-family: 'Nanum Gothic', sans-serif;*/
 /*font-family: 'Old Standard TT', serif;*/
 
+/* Color fondo toda la pagina */
+
+color_fondo
+{
+   /* background-color:rgb(240, 200, 240);*/
+   background-color: brown;
+    border: thick 1px black;
+    padding: 5px;
+}
+
+
+/* Encabezado */
+
 
 
 footer {
@@ -14,13 +27,8 @@ footer {
     border: thick 1px black;
     padding: 5px;
 }
-.color_fondo
-{
-   /* background-color:rgb(240, 200, 240);*/
-   background-color: brown;
-    border: thick 1px black;
-    padding: 5px;
-}
+
+
 header nav ul li a {
     text-decoration: none;
     color:black;
@@ -57,6 +65,13 @@ header nav ul li {
       height: 80px
   }
   
+  .tamano-logo {
+    
+      width: 80px;
+      height: 80px
+  }
+  
+
   .encabezado_inicio{
       font-family:cursive;
       font-size: 48px;
@@ -546,4 +561,30 @@ height: 800px;
   .encabezado :hover{
     background-color: chartreuse;
   }
-    
+
+
+ nav ul li a {
+    text-decoration: none;
+    color:black;
+   }
+ nav ul li {
+       list-style: none;
+    color: green;
+    background-color:rgb(141, 165, 141);
+    border-radius: 10px;
+    border: solid black;
+    padding: 5px;
+ }
+ 
+
+ .pepe{
+
+    color: green;
+    background-color:rgb(141, 165, 141);
+    border-radius: 10px;
+    border: solid black;
+    padding: 5px;
+ }
+
+
+ 
