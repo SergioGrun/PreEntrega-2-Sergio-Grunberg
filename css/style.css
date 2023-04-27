@@ -14,7 +14,7 @@ footer {
     border: thick 1px black;
     padding: 5px;
 }
-header 
+.color_fondo
 {
    /* background-color:rgb(240, 200, 240);*/
    background-color: brown;
@@ -272,11 +272,14 @@ nav ul{
     margin-right: 12px;
 
    }
-  header{
+header{
     display: flex;
     justify-content: space-between;
         align-items: center;
-   }
+   
+}
+    
+   
    footer ul{
     display: flex;
     text-align: center;
