@@ -20,6 +20,79 @@ color_fondo
 /* Encabezado */
 
 
+nav ul li a {
+    text-decoration: none;
+    color:black;
+   }
+nav ul li {
+    list-style: none;
+ color: green;
+ background-color:rgb(141, 165, 141);
+ border-radius: 10px;
+ border: solid black;
+ padding: 5px;
+ 
+}
+
+ .tamano-logo {
+    
+    width: 80px;
+    height: 80px;
+}
+
+
+
+.encabezado_inicio{
+    font-family:cursive;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+       top: 10px;
+    color:lightsteelblue;
+    margin: 150px 50px 50px 50px;
+ }
+
+.nuestro_serv{
+    font-family:'Lucida Sans';
+    font-size: 25px;
+    bottom: 10px;
+    margin: 30px;
+    text-align: center;
+    padding: 15px;
+    color: lightsteelblue;
+}
+
+.h3_tamano{
+    font-family: cursive;
+    font-size: 18px;
+   margin: 30px;
+   color: lightsteelblue;
+   margin:30px;
+   padding: 15px;
+}
+
+.tipo_lista{
+    list-style: square;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:lightsteelblue;
+  
+    font-size: 20x;
+    
+   
+    line-height: 3;
+    font-size: 30px;
+}
+.mensaje {
+    font-family: cursive;
+    font-size: 28px;
+   margin: 30px;
+   color: lightsteelblue;
+   margin:30px;
+   padding: 15px;
+   text-align: center;
+}  
+
 
 footer {
     background-color: rgb(240, 200, 240);
@@ -43,19 +116,9 @@ header nav ul li {
     padding: 5px;
  
 }
-.tipo_lista{
-    list-style: square;
-    font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: green;
-  
-    font-size: 20x;
-    
-   
-    line-height: 3;
-    font-size: 30px;
 
-}
+
+
     
     
 
@@ -65,25 +128,9 @@ header nav ul li {
       height: 80px
   }
   
-  .tamano-logo {
-    
-      width: 80px;
-      height: 80px
-  }
-  
+ 
 
-  .encabezado_inicio{
-      font-family:cursive;
-      font-size: 48px;
-      text-align: center;
-     border: 4px solid gray;
-      margin: 30 px;
-      padding: 5px;
-      position: relative;
-      top: 10px;
-      color:darkolivegreen
 
-                      }
    
 .parrafos_descr{
  
@@ -126,26 +173,11 @@ header nav ul li {
 
 
 
-.nuestro_serv{
-    font-family:'Lucida Sans';
-   font-size: 32px;
-   position: relative;
-   bottom: 10px;
-   margin: 30px;
-   padding: 15px;
-   color: darkolivegreen;
-   }
+
 body {
    background-color: brown;
 }
 
-.h3_tamano{
-    font-family: cursive;
-   margin: 30px;
-   color: darkolivegreen;
-   margin:30px;
-   padding: 15px;
-}
 
 
 .tamano__fotos{
