@@ -40,7 +40,10 @@ nav ul li {
     height: 80px;
 }
 
-
+.boton_mio{
+    background-color:black;
+    color: whitesmoke;
+}
 
 .encabezado_inicio{
     font-family:cursive;
