@@ -8,16 +8,14 @@
 
 /* Color fondo toda la pagina */
 
-color_fondo
-{
-   /* background-color:rgb(240, 200, 240);*/
-   background-color: brown;
-    border: thick 1px black;
-    padding: 5px;
-}
+
 
 
 /* Encabezado */
+
+
+
+
 
 
 nav ul li a {
@@ -25,20 +23,30 @@ nav ul li a {
     color:black;
    }
 nav ul li {
-    list-style: none;
+list-style: none;
  color: green;
  background-color:rgb(141, 165, 141);
- border-radius: 10px;
- border: solid black;
+
  padding: 5px;
  
 }
-
+.encabezado :hover{
+    background-color:lightgray;
+}
  .tamano-logo {
     
     width: 80px;
     height: 80px;
 }
+
+.pepe{
+    color: green;
+    background-color:rgb(141, 165, 141);
+    border-radius: 10px;
+    border: solid black;
+    padding: 5px;
+ }
+
 
 .boton_mio{
     background-color:black;
@@ -51,7 +59,7 @@ nav ul li {
     text-align: center;
     padding: 5px;
        top: 10px;
-    color:lightsteelblue;
+    color:whitesmoke;
     margin: 150px 50px 50px 50px;
  }
 
@@ -62,30 +70,19 @@ nav ul li {
     margin: 30px;
     text-align: center;
     padding: 15px;
-    color: lightsteelblue;
+    color: whitesmoke;
 }
 
 .h3_tamano{
     font-family: cursive;
     font-size: 18px;
    margin: 30px;
-   color: lightsteelblue;
+   color:whitesmoke;
    margin:30px;
    padding: 15px;
 }
 
-.tipo_lista{
-    list-style: square;
-    font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:darkturquoise;
-  
-    font-size: 20x;
-    margin:40px;
-    line-height: 60px;
-     font-size: 50px;
-    padding: 10px;
-}
+
 .margen_superior{
     margin-top: 200px;
 }
@@ -93,10 +90,29 @@ nav ul li {
     font-family: cursive;
     font-size: 28px;
    margin: 30px;
-   color: lightsteelblue;
+   color:whitesmoke;
       padding: 15px;
    text-align: center;
 }  
+
+.tipo_lista{
+    list-style: square;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke;
+    font-size: 20x;
+    margin:40px;
+    line-height: 60px;
+     font-size: 50px;
+    padding: 10px;
+}
+
+.margen-index{
+    margin:30px
+}
+.margen-fotos{
+    margin:15px
+}
 
 
 /* Hoja acerca de mi */
@@ -119,7 +135,7 @@ nav ul li {
 .acerca_3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
-  color:darkgray;
+  color:powderblue;
 text-align: left;
 margin-top: 20px;
     }
@@ -145,44 +161,26 @@ margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     margin: 5px;
-    text-align:left
+    text-align:left;
+  
+  
 }
   
 
 
-footer {
-    background-color: rgb(240, 200, 240);
-    background-color:rgb(240, 200, 240);
-    border: thick 1px black;
-    padding: 5px;
-}
+
 
 
 header nav ul li a {
     text-decoration: none;
     color:black;
    }
-header nav ul li {
-       list-style: none;
-     /*display: inline;*/
-    color: green;
-    background-color:rgb(141, 165, 141);
-    border-radius: 10px;
-    border: solid black;
-    padding: 5px;
- 
-}
 
 
 
     
     
 
-  header img {
-    
-      width: 80px;
-      height: 80px
-  }
   
  
 
@@ -192,7 +190,7 @@ header nav ul li {
  
    font-family: 'Nanum Gothic', sans-serif;
     font-size: 14px;
-    color:green;
+    color:powderblue;
   border: double 3px darkgray;
    padding: 1px;
    margin: 5px;
@@ -201,11 +199,10 @@ header nav ul li {
     }
     
     
-.Detalle_obras{
-    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+.detalle_obras{
     font-size: 24px;
     text-decoration: underline;
-    color:chocolate;
+    color:whitesmoke;
     position: relative;
     top: 30px;
     left: 30px;
@@ -230,21 +227,33 @@ header nav ul li {
 
 
 body {
-   background-color: brown;
+   background-color:gray;
 }
 
+/* Clases de Trab_univ */
 
 
-.tamano__fotos{
-max-width: 600px;
+.carrera{
+    font-family: cursive;
+    color:powderblue;   
+    font-size: 40px;
+    padding: 10px;
+    margin: 5 px;
+    text-align: center;
+    }
+.carrera_2{
+    font-family: cursive;
+    color:powderblue   ;
+   
+    font-size: 32px;
+    padding: 10px;
+    margin: 5 px;       
+    }
 
-    height: 600px;
-    overflow: hidden;
-    position: relative;
-    margin: 200px auto;
-    border-radius: 20px;
-    box-shadow: 5px 8px 12px black  ;
-  }
+
+
+
+
   .fotos_proyecto{
     width: 90%;
     
@@ -290,36 +299,9 @@ display: flex;
 
 
 
-      .carrera{
-        font-family: cursive;
-        color:darkolivegreen;   
-        font-size: 40px;
-        padding: 10px;
-        margin: 5 px;
-        text-align: center;
-    }
-    .carrera_2{
-        font-family: cursive;
-        color:darkolivegreen;   
-        font-size: 20px;
-        padding: 10px;
-        margin: 5 px;
-       
-    }
-    .carrera_3{
-        font-family: cursive;
-        color:darkolivegreen;   
-        font-size: 15px;
-        padding: 10px;
-        margin: 5 px;
-             
-    }
-.margenes_fotos{
-    margin: 30px;
-           width:  700px;
-        height: 560px;
+
     
-}
+
 .contacto_1{
     font-family: cursive;
         color:darkolivegreen;   
@@ -345,13 +327,7 @@ nav ul{
     margin-right: 12px;
 
    }
-header{
-    display: flex;
-    justify-content: space-between;
-        align-items: center;
-   
-}
-    
+
    
    footer ul{
     display: flex;
@@ -368,21 +344,7 @@ align-items: flex-start;
      
 }
 
-.tipo_lista2{
-    list-style: square;
-    font-style:italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: green;
-    line-height: 3;
-    font-size: 30px;
-  /* position: relative;
-bottom: 70px;
-left: 700px;*/
-display:flex;
-justify-content: flex-end;
-flex-direction: column;
-align-items: flex-start;
-}
+
 
 .seccion_inicio{
    
@@ -399,13 +361,7 @@ align-items: flex-start;
       
       }
 
-.fotos_index{
-    display: flex;
-    gap:20px;
-    align-items: center;
-    justify-content: center;
-    
-}
+
 
 /* diseño de la pagina proyectos*/
 
@@ -470,6 +426,26 @@ align-items: flex-start;
 
 /*diseño trabajo universitario*/
 
+.margenes_fotos{
+    margin: 30px;
+    width:  700px;
+    height: 560px;
+    box-shadow: 8px 10px 14px black; 
+    border-radius: 20px;
+    transition:transform .5s;
+    }
+
+.zoom{
+    transition:transform .5s;
+}
+
+.zoom:hover    {
+    transform: scale(1.5);
+}
+.margenes_foto:hover {
+    transform: scale(1.5);
+}
+
 .main_universit{
     display: flex;
     justify-content:space-evenly;
@@ -477,10 +453,10 @@ align-items: flex-start;
    
 }
 .contenido_proyecto{
-    
+   
  
 
-background-color: darkgoldenrod;
+
 display: grid;
 grid-template-columns: 800px 800px;
 grid-template-rows: 640px 640px 640px 640px 640px 640px 640px;
@@ -517,6 +493,18 @@ justify-content: space-evenly;
 .redondeado{
     border-radius: 20px;
 }
+
+.cont{
+    width:  700px;
+    height: 560px;
+    overflow: hidden;
+    position: relative;
+    margin: 200px auto;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black  ;
+    
+}
+
 
 
 .univ_3{
@@ -571,48 +559,34 @@ justify-content: space-evenly;
     grid-area: univ14;
 }
 
-/* acerca de */
 
 
-.cont{
-    width: 400px;
-    height: 600px;
-    overflow: hidden;
-    position: relative;
-    margin: 200px auto;
-    border-radius: 20px;
-    box-shadow: 5px 8px 12px black  ;
-    
+
+.borde-formulario{
+    margin:100px;
 }
 
 
-  .encabezado :hover{
-    background-color: chartreuse;
-  }
 
 
  nav ul li a {
     text-decoration: none;
-    color:black;
+    color:black ;
+    border: none ;
    }
  nav ul li {
-       list-style: none;
-    color: green;
-    background-color:rgb(141, 165, 141);
-    border-radius: 10px;
-    border: solid black;
-    padding: 5px;
- }
+     list-style: none;
+    color: black;
+        padding: 5px;
  
-
- .pepe{
-
-    color: green;
-    background-color:rgb(141, 165, 141);
-    border-radius: 10px;
-    border: solid black;
-    padding: 5px;
  }
 
+
+/* Pagina contacto */
+.borde-form{
+    
+    justify-content: center;
+    color: whitesmoke;
+}
 
  
