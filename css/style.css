@@ -78,13 +78,16 @@ nav ul li {
     list-style: square;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:lightsteelblue;
+    color:darkturquoise;
   
     font-size: 20x;
-    
-   
-    line-height: 3;
-    font-size: 30px;
+    margin:40px;
+    line-height: 60px;
+     font-size: 50px;
+    padding: 10px;
+}
+.margen_superior{
+    margin-top: 200px;
 }
 .mensaje {
     font-family: cursive;
@@ -117,30 +120,30 @@ nav ul li {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
   color:darkgray;
-    text-align: left;
+text-align: left;
+margin-top: 20px;
     }
 
-    .cont2{
+.cont2{
       
-        overflow: hidden;
-        margin: 200px auto;
-        border-radius: 20px;
-        box-shadow: 5px 8px 12px black  ;
-        
-    }
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 10% 50%;
+    box-shadow: 5px 8px 12px black  ;  
+  justify-content: center;
 
-    .margen_acerca{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
+}
 
+.margen_acerca{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     }
 
 
  .frase{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    margin-top: 400px;
     margin: 5px;
     text-align:left
 }
