@@ -117,38 +117,34 @@ nav ul li {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
   color:darkgray;
+    text-align: left;
+    }
+
+    .cont2{
+      
+        overflow: hidden;
+        margin: 200px auto;
+        border-radius: 20px;
+        box-shadow: 5px 8px 12px black  ;
+        
+    }
+
+    .margen_acerca{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
 
     }
-.grid_acerca{
-height: 800px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-    "ac1 ac2"
-    "ac1 ac3";
-    justify-items: center;
-    align-items: center;
+
+
+ .frase{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 400px;
+    margin: 5px;
+    text-align:left
 }
-.foto_dario{
-      max-height: 7 00px;
-    grid-area: ac1;
-    
-}
-
-.grid_acerca2{
-    grid-area:ac3;
-    margin:30px
-}
-
-
-
-
-.frases_acerca{
-    grid-area: ac2;
-    margin: 30px;
-
-  }
+  
 
 
 footer {
@@ -337,13 +333,7 @@ display: flex;
        text-align: center;
       text-align: center;
 }
-.frase{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    margin: 5px;
-/*position: relative;
-bottom:150px;*/
-}
+
 nav ul{
     display: flex;
     flex-wrap: wrap;
