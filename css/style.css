@@ -286,13 +286,13 @@ footer ul{
 @media (max-width: 580px){
     .div{
         grid-template-columns:100%;
-        grid-template-rows: 500px 500px 200px 200px;
+        grid-template-rows: 500px 500px 500px 5sa00px;
         grid-template-areas: 
         "div1"
         "div2"
         "div3"
         "div4";
-         height: 1500px;   
+         height: 2000px;   
        }
 }
 .div1{
@@ -351,6 +351,15 @@ footer ul{
     transform: scale(1.5);
 }
 
+@media (max-width: 580px){
+    .zoom{
+        transition: none;
+        }
+    .zoom:hover{
+        transform: none;
+    }
+}
+
 .main_universit{
     display: flex;
     justify-content:center;
@@ -389,7 +398,13 @@ footer ul{
 
 .borde-formulario{
     margin:100px;
-    border: solid 1px white;
+   
+}
+
+@media (max-width:580px){
+   .borde-formulario{
+    margin: 20px;
+   }
 }
    
 .inquietud {
