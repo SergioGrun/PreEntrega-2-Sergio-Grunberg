@@ -297,7 +297,7 @@ footer ul{
 @media (max-width: 580px){
     .div{
         grid-template-columns:100%;
-        grid-template-rows: 500px 500px 100px 2adg00px;
+        grid-template-rows: 500px 500px 100px 200px;
         grid-template-areas: 
         "div1"
         "div2"
