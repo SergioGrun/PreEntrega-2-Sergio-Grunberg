@@ -373,5 +373,12 @@ footer ul{
 
 .borde-formulario{
     margin:100px;
+    border: solid 1px white;
 }
    
+.inquietud {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    color:whitesmoke; 
+    text-align: center;
+}
