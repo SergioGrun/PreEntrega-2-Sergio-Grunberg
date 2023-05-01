@@ -252,6 +252,13 @@ footer ul{
     align-items: center; 
     flex-direction: row;
 }
+
+@media (max-width: 580px) {
+    .obra{
+        flex-direction: column;
+    }
+}
+
 .nombre_obra{
     display: flex;
     align-items:start;
@@ -271,6 +278,19 @@ footer ul{
         "div4 div4";
     column-gap: 40 px;
     row-gap: 25px;  
+}
+
+@media (max-width: 580px){
+    .div{
+        grid-template-columns:100%;
+        grid-template-rows: 500px 500px 50px 150px;
+        grid-template-areas: 
+        "div1"
+        "div2"
+        "div3"
+        "div4";
+         height: 1200px;   
+       }
 }
 .div1{
     grid-area: div1;   
