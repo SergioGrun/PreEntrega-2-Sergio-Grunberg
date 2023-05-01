@@ -379,14 +379,7 @@ footer ul{
     color: whitesmoke;
 }    
 
-.contacto_1{
-    font-family: cursive;
-    color:whitesmoke;   
-    font-size: 30px;
-    padding: 10px;
-    margin: 5 px;
-    text-align: center;
-}
+
 .contacto_2{
     font-family: cursive;
     color:whitesmoke;   
@@ -398,6 +391,7 @@ footer ul{
 
 .borde-formulario{
     margin:100px;
+    border: 1px solid white;
    
 }
 
@@ -409,9 +403,9 @@ footer ul{
    
 .inquietud {
     font-family: 'Inter', sans-serif;
-    font-size: 25px;
+    font-size: 12px;
     color:whitesmoke; 
     text-align: center;
-}
+   }
 
 
