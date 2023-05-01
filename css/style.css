@@ -71,7 +71,7 @@ header{
 .encabezado_inicio{
     font-family:cursive;
     font-size: 30px;
-    text-align: start;
+    text-align: center;
     padding: 5px;
     top: 10px;
     color:whitesmoke;
@@ -162,7 +162,7 @@ header{
 
 .cont2{
     overflow: hidden;
-    margin: 20px;
+    margin: 5px;
     border-radius: 10% 50%;
     box-shadow: 5px 8px 12px black  ;  
     justify-content: center;
@@ -253,10 +253,10 @@ footer ul{
 .detalle_obras{
     font-size: 24px;
     text-decoration: underline;
-    color:whitesmoke;
     position: relative;
-    top: 30px;
-    left: 30px;
+    color:whitesmoke;
+    margin-top: 30px;
+    margin-left: 30px;
     font-family: 'Old Standard TT', serif;
 }
 .obra{ 
@@ -276,6 +276,7 @@ footer ul{
 .nombre_obra{
     display: flex;
     align-items:start;
+  
 }
  
 .div{
