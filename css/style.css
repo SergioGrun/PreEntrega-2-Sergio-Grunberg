@@ -71,14 +71,35 @@ header{
 .encabezado_inicio{
     font-family:cursive;
     font-size: 30px;
-    text-align: center;
+    text-align: start;
     padding: 5px;
     top: 10px;
     color:whitesmoke;
-    margin: 150px 50px 50px 50px;
+    margin: 150px 20px 50px 10px;
 }
 .margen_arriba{
-    margin-top: 20px;
+    margin-top: 150px;
+}
+
+
+@media (max-width: 580px) {
+    .margen_arriba{
+      margin-top: 30px;
+    }
+       }
+
+@media (max-width:580px) {
+    .imagen-celular{
+        display: none;
+
+    }
+.desktop{
+    display: none;
+}
+}
+
+.desktop {
+    display: block;
 }
 
 .nuestro_serv{
@@ -92,7 +113,7 @@ header{
 }
 
 .h3_tamano{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans';
     font-size: 18px;
     margin: 30px;
     color:whitesmoke;
@@ -104,13 +125,18 @@ header{
     margin-top: 30px;
 }
 .mensaje{
-    font-family: cursive;
-    font-size: 28px;
-    margin: 30px;
+    font-family:'Lucida Sans';
+    font-size: 20px;
     color:whitesmoke;
-    padding: 15px;
-    text-align: start;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }  
+
+.imagen-celular{
+    display: none;
+}
 
 .tipo_lista{
     list-style: square;
@@ -119,10 +145,13 @@ header{
     color:whitesmoke;
     font-size: 14x;
     padding: 10px;
+    margin-left: 50px;
 }
 
 .margen-index{
-    margin:30px
+    margin:10px;
+    
+
 }
 .margen-fotos{
     margin:15px;
