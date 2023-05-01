@@ -286,13 +286,13 @@ footer ul{
 @media (max-width: 580px){
     .div{
         grid-template-columns:100%;
-        grid-template-rows: 500px 500px 500px 5sa00px;
+        grid-template-rows: 500px 500px 100px 200px;
         grid-template-areas: 
         "div1"
         "div2"
         "div3"
         "div4";
-         height: 2000px;   
+         height: 100%;   
        }
 }
 .div1{
@@ -391,7 +391,7 @@ footer ul{
 
 .borde-formulario{
     margin:100px;
-    border: 1px solid white;
+    border: 1px solid white ;
    
 }
 
